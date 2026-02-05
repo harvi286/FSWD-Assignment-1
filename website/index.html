@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Tech Fest 2026</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font-poppins bg-gray-50 text-gray-800">  <!-- Header / Navbar -->  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-pink-600">TechFest 2026</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#schedule" class="hover:text-indigo-600">Schedule</a>
+        <a href="#highlights" class="hover:text-indigo-600">Highlights</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <a href="#register" class="bg-pink-400 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">Register</a>
+    </div>
+  </header>  <!-- Hero Section -->  <section class="bg-gradient-to-r from-indigo-600 to-pink-400 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-20 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Annual College Tech Event</h2>
+      <p class="text-lg md:text-xl mb-6">Innovate • Inspire • Implement</p>
+      <p class="mb-8">March 15–16, 2026 | silver oak university Campus</p>
+      <a href="#register" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Join Now</a>
+    </div>
+  </section>  <!-- About Event -->  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">About the Event</h3>
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        TechFest 2026 is a two-day national-level college event featuring technical workshops, coding competitions,
+        guest lectures, and innovation challenges designed to empower students with real-world skills.
+      </p>
+    </div>
+  </section>  <!-- Schedule Section -->  <section id="schedule" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Event Schedule</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-4">Day 1</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>10:00 AM – Inauguration Ceremony</li>
+            <li>11:30 AM – Web Development Workshop</li>
+            <li>02:00 PM – Coding Contest</li>
+            <li>05:00 PM – Guest Talk</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-4">Day 2</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>10:00 AM – AI & ML Workshop</li>
+            <li>12:30 PM – Hackathon Finals</li>
+            <li>03:00 PM – Project Expo</li>
+            <li>05:30 PM – Valedictory & Prizes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Highlights -->  <section id="highlights" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Event Highlights</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="font-semibold text-lg mb-2">Expert Speakers</h4>
+          <p class="text-gray-600">Industry professionals sharing insights.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="font-semibold text-lg mb-2">Hands-on Workshops</h4>
+          <p class="text-gray-600">Practical learning with live demos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h4 class="font-semibold text-lg mb-2">Exciting Prizes</h4>
+          <p class="text-gray-600">Win certificates and cash rewards.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Registration -->  <section id="register" class="bg-pink-400 text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-4">Register Now</h3>
+      <p class="mb-8">Limited seats available. Don’t miss out!</p>
+      <form class="grid gap-4 md:grid-cols-2">
+        <input type="text" placeholder="Full Name" class="p-3 rounded text-gray-800" />
+        <input type="email" placeholder="Email Address" class="p-3 rounded text-gray-800" />
+        <input type="text" placeholder="College Name" class="p-3 rounded text-gray-800 md:col-span-2" />
+        <button class="bg-white text-indigo-600 font-semibold py-3 rounded md:col-span-2 hover:bg-gray-100">Submit</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer id="contact" class="bg-gray-900 text-gray-300 py-6">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p>© 2026 ABC College | Contact: techfest@abccollege.edu</p>
+    </div>
+  </footer></body>
+</html>
